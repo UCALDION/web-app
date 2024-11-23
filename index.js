@@ -23,3 +23,5 @@ const db = new sqlite3.Database('./mydatabase.db', (err) => {
     console.log('Connected to SQLite database.');
   }
 });
+
+
